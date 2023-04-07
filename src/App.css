@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 96%;
+  max-width: 1140px;
+  margin: 0 auto;
+  
+}
+
+.row{
+  margin: 2em 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+  grid-gap: 48px;
+}
+.card{
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  transition: all ease 0.3s;
+  overflow: hidden;
+  position: relative;
+  height: 500px;
+}
+.card:hover{
+  transform: translateY(-5px);
+  box-shadow:  0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+.profile{
+  left: 20px;
+  position: relative;
+}
+.profile img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+  position: absolute;
+  transform: translateY(-60%);
+}
+
+.card-title img{
+  width: 100%;
+  object-fit: cover;
+  min-height: 100%;
+  object-position: center;
+  border-radius: 10px;
+}
+.all{
+  top: 40px;
+ position: relative;
+}
+.card-body{
+  padding: 5px 10px;
+}
+.card-body li{
+  color: rgb(17, 0, 255);
+  font-size: 16px;
+}
+.card-list{
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin: 5px;
+  
+}
+.card-list li{
+  display: inline-block;
+  width: 80px;
+}
+ul,ol{
+  list-style:none;
+}
+
+body{
+  align-items: center;
+  justify-content: center;
+}
+
+.serch-container{
+  margin: 48px 200px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  padding: 1em 1em 1em 1em;
+  border: 1px solid #CCC;
+  border-radius: 2em;
+  text-align: center;
+}
+
+.search-input{
+  margin: 0 0 1em;
+  padding: 1em 5em 1em 1.5em;
+  border: 1px solid #CCC;
+  border-radius: 2em;
+  font-size: 18px;
+  position: relative;
+}
+
+.i1{margin: 0 0 1em;
+  padding: 1em 5em 1em 1.5em;
+  position: absolute;
+  transform: translateX(-60%);
+}
+.serch-container:hover{
+  transform: translateY(-5px);
+  box-shadow:  0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+  transition: all ease 0.3s;
+}
+
+.card-guild{
+  text-align: left;
+  padding: 5px;
+	margin-top: 10px;
+}
+.card-guild ul{
+  margin: 0;
+	padding: 10px;
+}
+.card-guild ul li{
+  border: 1px solid #bc7305;
+  color: #bc7305;
+	border-radius: 2em;
+	display: inline-block;
+	font-size: 12px;
+	margin: 0 7px 0 0;
+	padding: 5px;
+}
+.card-Tag{
+	text-align: left;
+	padding: 5px;
+  margin-bottom: 10px;
+}
+.card-Tag ul {
+	margin: 0;
+	padding: 10px;
+}
+.card-Tag ul li {
+	border: 1px solid #fdfdfd;
+  background-color: #6cebd64e;
+  border-radius: 2em;
+	display: inline-block;
+	font-size: 12px;
+	margin: 0 7px 7px 0;
+	padding: 5px;
+}
